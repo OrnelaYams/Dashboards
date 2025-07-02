@@ -6,7 +6,7 @@ import streamlit as st
 import pandas as pd
 
 # CSV-Datei laden
-csv_url = "Python_Dashboards/teams.csv"
+csv_url = "teams.csv"
 data  = pd.read_csv(csv_url)
 
 # App-Titel
