@@ -44,6 +44,7 @@ selected = col1.plotly_chart(fig, on_select="rerun")
 
 # --- Auswahl auswerten -------------------------------------------
 indices = selected["selection"]["point_indices"]
+#indices = [selected["selection"]["points"][0]['curve_number']]
 
 with col2:
     if not indices:
